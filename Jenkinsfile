@@ -11,7 +11,7 @@ pipeline {
     }
     
     
-  stage('tfsec') {
+  stage('SAST') {
   agent {  
    any {
      image 'tfsec/tfsec-ci:v0.57.1'
